@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(174, 109, 194);
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    text-align: left;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+
+  img {
+    width: 50%;
+    height: auto;
+}
+
+table{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 15px;
+    text-align: left;
+    border-radius: 10px;
+}

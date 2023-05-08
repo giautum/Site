@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>page of HTML notes</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Gio">
+        <meta name="description" content="HTML notes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required><br>
+            </fieldset>
+            <fieldset>
+                <legend>Payment Information</legend>
+                <label for="card">Card Type:</label>
+                <select name="card" id="card" required>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">MasterCard</option>
+                    <option value="discover">Discover</option>
+                    <option value="amex">American Express</option>
+                </select><br>
+                <label for="cardnumber">Card Number:</label>
+                <input type="text" name="cardnumber" id="cardnumber" required><br>
+                <label for="expmonth">Expiration Month:</label>
+                <select name="expmonth" id="expmonth" required>
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April</option>
+                    <option value="may">May</option>
+                    <option value="jun">June</option>
+                    <option value="jul">July</option>
+                    <option value="aug">August</option>
+                    <option value="sep">September</option>
+                    <option value="oct">October</option>
+                    <option value="nov">November</option>
+                    <option value="dec">December</option>
+                </select><br>
+            </fieldset>
+            <fieldset>
+                <legend>Me Try</legend>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+              
+            </fieldset>
+        </form>
+    </body>
+</html>
