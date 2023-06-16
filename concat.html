@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>page of HTML notes</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Gio">
+    <meta name="description" content="HTML notes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<html>
+    
+<body>
+    <h1>Concatenation</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" required><br>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = document.getElementById('name').value + ' ' + document.getElementById('lname').value">Click me to display Name and Last Name.</button>
+    </form>
+    <p id="demo">Name and Last Name will show here</p>
+
+</body>
+</html>
