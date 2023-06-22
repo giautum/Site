@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS - Selector Notes</title>
+        <style>
+            /* 
+                CSS Selectors
+                - element selector - selects by element
+                - id selector - selects by id
+                - class selector - selects by class
+                - universal selector - selects all elements
+                - grouping selector - selects all elements with the same style
+                - descendant selector - selects all elements inside another element
+                - child selector - selects all direct children of an element
+                - adjacent sibling selector - selects all elements that are the next sibling of an element
+                - general sibling selector - selects all elements that are siblings of an element
+            */
+            /* element selector */
+            p {
+                color: red;
+            }
+            /* id selector */
+            #para1 {
+                color: blue;
+            }
+            /* class selector */
+            .para2 {
+                color: green;
+            }
+            /* universal selector*/
+            * {
+                text-align: center;
+            }
+            /* grouping selector */
+            h1, h2, p {
+                border: 1px solid black;
+                font-style: italic;
+            }
+            /* descendant selector */
+            div p {
+                border: 1px solid black;
+            }
+            /* child selector */
+            div > p {
+                border: 1px solid yellow;
+            }
+            /* adjacent sibling selector */
+            div + p {
+                border: 1px solid black;
+            }
+            /* general sibling selector */
+            div ~ p {
+                border: 1px solid black;
+            }
+            /* combined selectors*/
+            div p.para2 {
+                color: purple;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Paragraph 1</p>
+        <p id="para1">Paragraph 2</p>
+        <p class="para2">Paragraph 3</p>
+        <div>
+            <p>Paragraph 4</p>
+            <p>Paragraph 4.1</p>
+        </div>
+        <div>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <p>Paragraph 6</p>
+        </div>
+
+    </body>
+</html>
